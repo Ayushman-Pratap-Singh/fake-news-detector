@@ -97,8 +97,26 @@ if st.button("🔍 Analyze News"):
                 f'<div class="result-box" style="background-color:#2ecc71;">✅ REAL NEWS<br>Confidence: {proba[0]*100:.2f}%</div>',
                 unsafe_allow_html=True
             )
-st.markdown("---")
-st.markdown(
-    "<center><b>Built by Ayushman Bhupendra Pratap Singh</b><br>Fake News Detection using Machine Learning</center>",
-    unsafe_allow_html=True
-)
+            
+st.markdown("<br><br><br>", unsafe_allow_html=True)
+st.markdown("""
+<style>
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0E1117;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+    z-index: 100;
+}
+</style>
+
+<div class="footer">
+    🚀 Built by <b>Ayushman B. Pratap Singh</b> | Fake News Detection System
+</div>
+""", unsafe_allow_html=True)
