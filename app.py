@@ -97,3 +97,8 @@ if st.button("🔍 Analyze News"):
                 f'<div class="result-box" style="background-color:#2ecc71;">✅ REAL NEWS<br>Confidence: {proba[0]*100:.2f}%</div>',
                 unsafe_allow_html=True
             )
+st.markdown("---")
+st.markdown(
+    "<center><b>Built by Ayushman Bhupendra Pratap Singh</b><br>Fake News Detection using Machine Learning</center>",
+    unsafe_allow_html=True
+)
