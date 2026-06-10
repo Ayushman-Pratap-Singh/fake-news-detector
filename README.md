@@ -2,6 +2,7 @@ Visit https://fake-news-detector-ftcwhatn262rn5bwewvuzs.streamlit.app/ to access
 
 If you encounter the following on screen :
 "This app has gone to sleep due to inactivity. Would you like to wake it back up?"
+
 Click on the option:
 "Yes, get this app back up!"
 
